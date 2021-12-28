@@ -1,0 +1,11 @@
+package com.vaibhav.toastlibrary;
+
+
+import android.content.Context;
+import android.widget.Toast;
+
+public class ToastPrint {
+    private static void print (String s , Context c ){
+        Toast.makeText(c, s, Toast.LENGTH_SHORT).show();
+    }
+}
