@@ -3,7 +3,7 @@ package com.vaibhav.toasterframework;
 import android.content.Context;
 import android.widget.Toast;
 
-public class Message {
+public class ToasterClass {
 
     public static void printToast(Context c, String message){
 
